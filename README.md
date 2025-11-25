@@ -65,3 +65,17 @@ streamlit run frontend.py
 **4.product_specs.md:** The requirement rules for the AI to learn.
 
 
+## Project Screenshots
+
+![WhatsApp Image 2025-11-25 at 15 42 05_7d40d80a](https://github.com/user-attachments/assets/106af5d0-a5a6-48a3-bc79-3818ff55c6b7)
+
+![WhatsApp Image 2025-11-25 at 16 36 07_38a5097b](https://github.com/user-attachments/assets/52feaa54-7424-4039-bc45-8c4460bb1cda)
+
+![WhatsApp Image 2025-11-25 at 16 38 27_ccff5f35](https://github.com/user-attachments/assets/2fae3894-f955-44b3-8a3a-49d827873502)
+
+![WhatsApp Image 2025-11-25 at 16 40 35_4be26e2e](https://github.com/user-attachments/assets/2fb79983-adb9-4f53-889b-04cb912cecc4)
+
+![WhatsApp Image 2025-11-25 at 16 41 53_0bfdaf10](https://github.com/user-attachments/assets/743f5c2c-a38e-4b46-b11c-de0f87fee868)
+
+![WhatsApp Image 2025-11-25 at 16 41 18_cd86f1d0](https://github.com/user-attachments/assets/03119bce-52a6-47f1-90b2-26d95d2f8d9f)
+
