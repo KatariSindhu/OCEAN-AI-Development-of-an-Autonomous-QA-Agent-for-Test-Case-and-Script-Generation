@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OceanAI Shop - Checkout</title>
+    <style>
+        .error { color: red; font-size: 0.9em; }
+        .success { color: green; font-weight: bold; }
+        .container { max-width: 600px; margin: 20px auto; font-family: Arial, sans-serif; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Checkout</h2>
+        
+        <div id="cart-summary">
+            <div class="item">
+                <span>AI Manual</span>
+                <input type="number" id="qty-1" value="1" min="1">
+                <span class="price">$50.00</span>
+                <button class="add-cart-btn" data-id="1">Add to Cart</button>
+            </div>
+            <h3>Total: $<span id="total-price">50.00</span></h3>
+        </div>
+
+        <div class="discount-section">
+            <label>Discount Code:</label>
+            <input type="text" id="promo-code" placeholder="Enter code">
+            <button id="apply-promo-btn">Apply</button>
+            <p id="promo-message"></p>
+        </div>
+
+        <form id="checkout-form">
+            <label>Full Name:</label>
+            <input type="text" id="full-name" required>
+            
+            <label>Email:</label>
+            <input type="email" id="email-addr" required>
+            <span class="error" id="email-error" style="display:none;">Invalid email</span>
+
+            <label>Shipping Method:</label>
+            <div>
+                <input type="radio" name="shipping" value="standard" checked> Standard (Free)
+                <input type="radio" name="shipping" value="express"> Express ($10)
+            </div>
+
+            <label>Payment Method:</label>
+            <div>
+                <input type="radio" name="payment" value="cc"> Credit Card
+                <input type="radio" name="payment" value="paypal"> PayPal
+            </div>
+
+            <button type="button" id="pay-now-btn" style="background-color: green; color: white; margin-top: 10px;">Pay Now</button>
+        </form>
+        <div id="order-status"></div>
+    </div>
+</body>
+</html>

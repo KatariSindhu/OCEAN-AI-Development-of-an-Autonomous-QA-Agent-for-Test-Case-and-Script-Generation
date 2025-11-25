@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-google-genai
+langchain-community
+chromadb
+fastapi
+uvicorn
+beautifulsoup4
+pydantic
+python-dotenv
+tiktoken
+sentence-transformers
+requests

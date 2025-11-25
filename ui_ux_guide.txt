@@ -1,0 +1,12 @@
+UI/UX Guidelines
+
+1. Validation Errors:
+   - Must be displayed in RED text.
+   - Email field must validate standard email format (user@domain.com).
+
+2. Buttons:
+   - The "Pay Now" button must be GREEN.
+   - "Apply" button for discount should be near the input field.
+
+3. Success States:
+   - Successful order placement shows a message in the "order-status" div.
